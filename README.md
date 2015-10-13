@@ -1,2 +1,1 @@
-# Mobile-SDK-iOS
-Mobile SDK iOS
+https://github.com/dotpay/Mobile-SDK-iOS/releases/latest
