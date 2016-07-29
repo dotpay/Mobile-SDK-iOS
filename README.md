@@ -17,7 +17,15 @@ Thanks to devolving as many steps from our web application as possible to mobile
 There is an option to modify vizualization style of SDK (colors, fonts) to have best integration possible with merchant’s mobile application.
 The SDK library was created in language Objective-C. It supports iOS version 8.0 and higher.
 
-# Instalation
+# How to get started
+
+install via [CocoaPods](https://cocoapods.org)
+
+```obj
+pod 'DotPaySDK'
+```
+
+### Classic
  
 You have to add the SDK to a project and initialize it in a proper way to use it. Details of these steps were described in next chapters.
 In order to make it easier to start with SDK, we deliver a test application, available in example sub-directory. Project settings
