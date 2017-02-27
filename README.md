@@ -2,8 +2,13 @@
 
 ![SDK logo](logo.png)
 
-SDK (iOS) Version 1.0.3
 
+## desrciption for the new version 1.2.0 being prepared ...
+###Please use the pdf [instructions] (https://github.com/dotpay/Mobile-SDK-iOS/blob/master/dotpay_mobile_sdk_ios_1.2.0/doc/Dotpay%20Mobile%20SDK%20-%20iOS%20-%20Instrukcja%20dla%20developera%20v1.2.0.pdf)###
+
+-----------------
+
+SDK (iOS) Version 1.0.3
 
 ![SDK screenshots](screen.png)
 
