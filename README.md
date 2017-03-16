@@ -5,7 +5,7 @@
 
 ## desrciption for the new version 1.2.0 being prepared ...
 
-### Technical manual for developers [PDF - polish](https://github.com/dotpay/Mobile-SDK-iOS/blob/master/dotpay_mobile_sdk_ios_1.2.0/doc/Dotpay_Mobile_SDK-iOS-Instrukcja_dla_developera_v1.2.0.pdf)
+### Technical manual for developers [PDF - polish](https://github.com/dotpay/Mobile-SDK-iOS/raw/master/dotpay_mobile_sdk_ios_1.2.0/doc/Dotpay_Mobile_SDK-iOS-Instrukcja_dla_developera_v1.2.0.pdf)
 
 ### Latest version: (https://github.com/dotpay/Mobile-SDK-iOS/releases/latest)
 
