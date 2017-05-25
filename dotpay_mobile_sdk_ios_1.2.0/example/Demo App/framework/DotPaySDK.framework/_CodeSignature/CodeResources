@@ -6,55 +6,55 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		LIqTJosLQ560NyU2PwkEwQXSP10=
+		EIfHuWW+X5BiNWJPFlMwRQF+SOQ=
 		</data>
 		<key>DPCheckboxView.nib</key>
 		<data>
-		P86e0whk0HKVtsTD08Psrww8jos=
+		qr5R1ePa2ihwnPwKRzBwcGk7sqo=
 		</data>
 		<key>DPFavoritePaymentChannelCollectionViewCell.nib</key>
 		<data>
-		Ek+vf740tDZY/ckS5lLJhnALo4I=
+		FTQ53PkzPcoPKENpfOHLDzTj3Bk=
 		</data>
 		<key>DPNewOneClickPaymentCardView.nib</key>
 		<data>
-		Cu4vLMaD8zTH8l8x6QehjGj1QJo=
+		CAbPwtZS8R7/X0Un+t6R1+AV5I0=
 		</data>
 		<key>DPPaymentDetailsView.nib</key>
 		<data>
-		pMkRdXI04A48ds25ubOVgYMXxew=
+		vn02sARvdnwA/ooDHfsEFH2Pz7g=
 		</data>
 		<key>DPPaymentDetailsViewController.nib</key>
 		<data>
-		MX9dEcez83zrQfGKdKMjcnfiq2Q=
+		U1LXEe8nwrFn0997MK3xAeSxa9c=
 		</data>
 		<key>DPPaymentFormCheckFieldTableViewCell.nib</key>
 		<data>
-		qDGd5Ckc+Uu52y6gdRau3FXY8fA=
+		2rK6TZEJL544Hu4xSMCAlLCHqfk=
 		</data>
 		<key>DPPaymentFormSelectFieldTableViewCell.nib</key>
 		<data>
-		sR0nyPfjR5OgFacTVlVjetHnJV4=
+		Ibhl5NvS5+6Wx4G/zdLbhhxX7UA=
 		</data>
 		<key>DPPaymentFormTextFieldTableViewCell.nib</key>
 		<data>
-		727vwVdyP6in0pPuhcRcygTIV0c=
+		nTufeXkyTa3hxG3XNin9c1gpM+Y=
 		</data>
 		<key>DPPaymentLastUsedChannelHeaderView.nib</key>
 		<data>
-		kKq1vGPDKj0brvYd636i+7gq92s=
+		/BHiuRsrhQUe32bPVH3iloghpHk=
 		</data>
 		<key>DPPaymentLastUsedChannelTableViewCell.nib</key>
 		<data>
-		k+/YfHNTj8yanz1P38URO0psvFU=
+		zwUZYFmNKxVOiZeUYjTfDXFj4q8=
 		</data>
 		<key>DPPaymentStatusHeaderView.nib</key>
 		<data>
-		q1WvkDt2+lsvuzt2gApjyWQBnIg=
+		yRY1a5aTFwt/dlUclHg45XPORBE=
 		</data>
 		<key>DPPaymentSummaryTableViewCell.nib</key>
 		<data>
-		JteCrn0YlS1T6dt8WO94B24YLkc=
+		gHRCHpDxrJlQP2EOb45dwsVBupc=
 		</data>
 		<key>Headers/DPCollectionViewLayout.h</key>
 		<data>
@@ -221,143 +221,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LIqTJosLQ560NyU2PwkEwQXSP10=
+			EIfHuWW+X5BiNWJPFlMwRQF+SOQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			lDahomHLKuzEe9f9xkYaQ9CioVPzSJrmhQyokuW498I=
+			SJ5M1BjzpRMYLwkda2GmrGtJj0YRslX2HHR0LgV4DW4=
 			</data>
 		</dict>
 		<key>DPCheckboxView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P86e0whk0HKVtsTD08Psrww8jos=
+			qr5R1ePa2ihwnPwKRzBwcGk7sqo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wge2oFGzTrY7v9+zDZZUjKaWmSd3pk5+w5Zpyfcv06M=
+			LPIh5GmbzVx+i/4rk69WGGSUamFpvy+QtRIG1DXUjzM=
 			</data>
 		</dict>
 		<key>DPFavoritePaymentChannelCollectionViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ek+vf740tDZY/ckS5lLJhnALo4I=
+			FTQ53PkzPcoPKENpfOHLDzTj3Bk=
 			</data>
 			<key>hash2</key>
 			<data>
-			EggLamSMx3Yj8iasAtKe5N28h82Yd+dvqKRj+6EzWys=
+			ZEP+s+lJqtuwdy7foaEwRPRCSaS0+nmypUBOkPUfPG8=
 			</data>
 		</dict>
 		<key>DPNewOneClickPaymentCardView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Cu4vLMaD8zTH8l8x6QehjGj1QJo=
+			CAbPwtZS8R7/X0Un+t6R1+AV5I0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ABWDzpfZ9hp52tjYyR3DNIO0G/CY+u3gw5B3ydB8a0U=
+			wAkPGTc+99QtLDJJ2U26iRqPiXvA6x1wS58aS0E05Vc=
 			</data>
 		</dict>
 		<key>DPPaymentDetailsView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pMkRdXI04A48ds25ubOVgYMXxew=
+			vn02sARvdnwA/ooDHfsEFH2Pz7g=
 			</data>
 			<key>hash2</key>
 			<data>
-			iggNNsMz8e/kKMNyoFevOgn88mqgVsA4GpVjuCjhK1c=
+			WKbflZHTAXRpt0gDqSc7vQocL5aMq0WKnF488bX602s=
 			</data>
 		</dict>
 		<key>DPPaymentDetailsViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MX9dEcez83zrQfGKdKMjcnfiq2Q=
+			U1LXEe8nwrFn0997MK3xAeSxa9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			M7yDg1fqnQ5A2bzCKLi6/0Tbkgv+oxjIWzQ3KdE6Wac=
+			A1+oJR95kBw6Wni+rPGRgQjoUj15dWpIrWvKr8o2vQ0=
 			</data>
 		</dict>
 		<key>DPPaymentFormCheckFieldTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qDGd5Ckc+Uu52y6gdRau3FXY8fA=
+			2rK6TZEJL544Hu4xSMCAlLCHqfk=
 			</data>
 			<key>hash2</key>
 			<data>
-			03trb9d0xUu2r+/fGl7jeMUkrZn4PEy0UfPlFdIvSDw=
+			uYXqWpFRZsut83xlnERDws/V8yd+u566YRyHi5fHayA=
 			</data>
 		</dict>
 		<key>DPPaymentFormSelectFieldTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sR0nyPfjR5OgFacTVlVjetHnJV4=
+			Ibhl5NvS5+6Wx4G/zdLbhhxX7UA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ellsJpRmGuTAMcbC3NaNc9cBKZ7tWeP7KwfPyAEdBrQ=
+			nvAKH98yuRjqQhXwst5DsVLqzwrG5rFRRyuV4b5mJYg=
 			</data>
 		</dict>
 		<key>DPPaymentFormTextFieldTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			727vwVdyP6in0pPuhcRcygTIV0c=
+			nTufeXkyTa3hxG3XNin9c1gpM+Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			8NXRlSBlts2cGBjpUpjmfQ0kA0QU09O7v+qMztjAJ8Q=
+			zjhcPPVR7/aW7N4XTf9XtXHHgyxvPd+tasRDyKpxgTI=
 			</data>
 		</dict>
 		<key>DPPaymentLastUsedChannelHeaderView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kKq1vGPDKj0brvYd636i+7gq92s=
+			/BHiuRsrhQUe32bPVH3iloghpHk=
 			</data>
 			<key>hash2</key>
 			<data>
-			yFBH+MeewmYaZMrz3SG0Fdf+dkRVC2prFSgsWYmjzlQ=
+			fYRv6SecKg0OMA7dP3PRpApDH5EUa1oALg/7gO3lODc=
 			</data>
 		</dict>
 		<key>DPPaymentLastUsedChannelTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k+/YfHNTj8yanz1P38URO0psvFU=
+			zwUZYFmNKxVOiZeUYjTfDXFj4q8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+gEHar7cbmEtvovubW05gKho8FYLD7en46VNaRdNdlA=
+			D9lAMJumf0JyXIX/DWQwkfaAIIPLI+pXuzmnHptfI/U=
 			</data>
 		</dict>
 		<key>DPPaymentStatusHeaderView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q1WvkDt2+lsvuzt2gApjyWQBnIg=
+			yRY1a5aTFwt/dlUclHg45XPORBE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6m1nBkWGgZbiXmQWjDK59jsZiCKtjMRIZaZNSp7md9g=
+			APlWHYrKKdQ3ugUiYZ772w6NT0TU1RuQ8OqA0eJ+AwI=
 			</data>
 		</dict>
 		<key>DPPaymentSummaryTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JteCrn0YlS1T6dt8WO94B24YLkc=
+			gHRCHpDxrJlQP2EOb45dwsVBupc=
 			</data>
 			<key>hash2</key>
 			<data>
-			/geh/cBm3XMKTZuQ7NQfeKjbSqegSBtPjlAf354OaC4=
+			GxT7+9m3SY7EM1VjXWjx33cKlE7QS425XhQqOgHcMwc=
 			</data>
 		</dict>
 		<key>Headers/DPCollectionViewLayout.h</key>
