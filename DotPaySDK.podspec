@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "DotPaySDK"
-s.version      = "1.2.0-6"
+s.version      = "1.4.15"
 s.summary      = "DotPay SDK"
 
 s.description = File.read('README.md')
@@ -40,15 +40,21 @@ LICENSE
 
 
 s.author       = { "DotPay" => "tech@dotpay.pl" }
-s.platform     = :ios, "8.0"
-s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/1.2.0-6/dotpay_mobile_sdk_ios_1.2.0-6.zip" }
+s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/1.4.15/dotpay_mobile_sdk_ios_1.4.15.zip" }
 
-s.source_files = 'dotpay_mobile_sdk_ios_1.2.0/lib/DotPaySDK.framework/Headers/*.h'
-s.preserve_paths = 'dotpay_mobile_sdk_ios_1.2.0/lib/DotPaySDK.framework'
-s.public_header_files = 'dotpay_mobile_sdk_ios_1.2.0/lib/DotPaySDK.framework/Headers/*.h'
-s.vendored_frameworks = 'dotpay_mobile_sdk_ios_1.2.0/lib/DotPaySDK.framework'
+s.platform     = :ios, "9.0"
 
 
-s.frameworks = 'JavaScriptCore'
+ s.source_files = 'dotpay_mobile_sdk_ios_1.4.15/lib/DotPaySDK.framework/Headers/*.h'
+ s.preserve_paths = 'dotpay_mobile_sdk_ios_1.4.15/lib/DotPaySDK.framework'
+ s.public_header_files = 'dotpay_mobile_sdk_ios_1.4.15/lib/DotPaySDK.framework/Headers/*.h'
+ s.vendored_frameworks = 'dotpay_mobile_sdk_ios_1.4.15/lib/DotPaySDK.framework'
+
+ s.framework  = "VisaCheckoutSDK"
+
+ s.requires_arc = true
+  
+ s.dependency "VisaCheckoutSDK"
+
 s.requires_arc = true
 end
