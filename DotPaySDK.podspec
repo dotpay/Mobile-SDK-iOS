@@ -36,22 +36,16 @@ e) to display the Original Work publicly.
 LICENSE
 }
 
-s.author       = { "DotPay" => "tech@dotpay.pl" }
-s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/1.4.15/dotpay_mobile_sdk_ios_1.4.15.zip" }
+ s.author       = { "DotPay" => "tech@dotpay.pl" }
+ s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/1.4.15/dotpay_mobile_sdk_ios_1.4.15.zip" }
 
-s.platform     = :ios, "9.1"
+ s.platform     = :ios, "9.1"
 
-
- s.source_files = 'dotpay_mobile_sdk_ios_1.4.15/lib/DotPaySDK.framework/Headers/*.h'
- s.preserve_paths = 'dotpay_mobile_sdk_ios_1.4.15/lib/DotPaySDK.framework'
- s.public_header_files = 'dotpay_mobile_sdk_ios_1.4.15/lib/DotPaySDK.framework/Headers/*.h'
- s.vendored_frameworks = 'dotpay_mobile_sdk_ios_1.4.15/lib/DotPaySDK.framework'
-
- s.framework  = "VisaCheckoutSDK"
+ s.vendored_framework = "dotpay_mobile_sdk_ios_1.4.15/lib/DotPaySDK.framework"
 
  s.requires_arc = true
   
- s.dependency "VisaCheckoutSDK"
+ s.dependency 'VisaCheckoutSDK', '~> 6.6.1'
 
-s.requires_arc = true
+ s.requires_arc = true
 end
