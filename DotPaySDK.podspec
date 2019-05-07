@@ -37,7 +37,7 @@ LICENSE
 }
 
  s.author       = { "DotPay" => "tech@dotpay.pl" }
- s.source       = { :http => "" }
+ s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/1.4.16/dotpay_mobile_sdk_ios_1.4.16.zip" }
 
  s.platform     = :ios, "9.1"
 
