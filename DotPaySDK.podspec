@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "DotPaySDK"
-s.version      = "1.4.17"
+s.version      = "1.4.18"
 s.summary      = "DotPay SDK"
 
 s.description = File.read('README.md')
