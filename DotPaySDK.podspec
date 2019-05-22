@@ -41,7 +41,7 @@ LICENSE
 
  s.platform     = :ios, "9.1"
 
- s.vendored_framework = "dotpay_mobile_sdk_ios_1.4.17/lib/DotPaySDK.framework"
+ s.vendored_framework = "dotpay_mobile_sdk_ios_1.4.18/lib/DotPaySDK.framework"
 
  s.requires_arc = true
   
