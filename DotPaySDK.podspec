@@ -37,7 +37,7 @@ LICENSE
 }
 
  s.author       = { "DotPay" => "tech@dotpay.pl" }
- s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/1.4.16/dotpay_mobile_sdk_ios_1.4.16.zip" }
+ s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/1.4.17/dotpay_mobile_sdk_ios_1.4.17.zip" }
 
  s.platform     = :ios, "9.1"
 
@@ -47,5 +47,4 @@ LICENSE
   
  s.dependency 'VisaCheckoutSDK', '~> 6.6.1'
 
- s.requires_arc = true
 end
