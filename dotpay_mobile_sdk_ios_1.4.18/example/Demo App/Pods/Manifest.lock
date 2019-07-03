@@ -1,0 +1,16 @@
+PODS:
+  - DotPaySDK (1.0.3)
+
+DEPENDENCIES:
+  - DotPaySDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DotPaySDK
+
+SPEC CHECKSUMS:
+  DotPaySDK: 9acb1b6ce8815a6032b00efdb21e8ee3ec9e91b5
+
+PODFILE CHECKSUM: 8b202af2bfa72d74efb2235afda2bf1a5e18149c
+
+COCOAPODS: 1.6.0
