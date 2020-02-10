@@ -1,23 +1,20 @@
 # DotPaySDK
-
 ![SDK logo](logo.png)
 
+# Latest stable Version: 
+[![](https://img.shields.io/github/release/dotpay/Mobile-SDK-iOS.svg?style=for-the-badge)](https://github.com/dotpay/Mobile-SDK-iOS/releases/latest "Download")
 
-## desrciption for the new version 1.2.0 being prepared ...
 
-### Technical manual for developers [PDF - polish](https://github.com/dotpay/Mobile-SDK-iOS/raw/master/dotpay_mobile_sdk_ios_1.2.0/doc/Dotpay_Mobile_SDK-iOS-Instrukcja_dla_developera_v1.2.0.pdf)
+### Technical manual for developers: [PDF](https://github.com/dotpay/Mobile-SDK-iOS/tree/1.4.21/dotpay_mobile_sdk_ios_1.4.21/doc)
 
-### Latest version: (https://github.com/dotpay/Mobile-SDK-iOS/releases/latest)
 
------------------
+---------------------------
+## old version description
 
 SDK (iOS) Version 1.0.3
 
 ![SDK screenshots](screen.png)
 
-# Latest stable Version
-
-https://github.com/dotpay/Mobile-SDK-iOS/releases/latest
 
 ## Introduction
 Set of software development tools (SDK library) that allows to integrate merchant’s mobile application with Dotpay payment system.
