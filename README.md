@@ -5,7 +5,7 @@
 [![](https://img.shields.io/github/release/dotpay/Mobile-SDK-iOS.svg?style=for-the-badge)](https://github.com/dotpay/Mobile-SDK-iOS/releases/latest "Download")
 
 
-### Technical manual for developers: [PDF](https://github.com/dotpay/Mobile-SDK-iOS/tree/1.4.21/dotpay_mobile_sdk_ios_1.4.21/doc)
+### Technical manual for developers: [PDF](https://github.com/dotpay/Mobile-SDK-iOS/tree/1.4.22/dotpay_mobile_sdk_ios_1.4.22/doc)
 
 
 ---------------------------
