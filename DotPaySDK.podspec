@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "DotPaySDK"
-s.version      = "1.4.23"
+s.version      = "2.0.0-beta1"
 s.summary      = "DotPay SDK"
 
 s.description = File.read('README.md')
@@ -37,11 +37,11 @@ LICENSE
 }
 
  s.author       = { "DotPay" => "tech@dotpay.pl" }
- s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/1.4.23/dotpay_mobile_sdk_ios_1.4.23.zip" }
+ s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/2.0.0-beta1/dotpay_mobile_sdk_ios_2.0.0-beta1.zip" }
 
  s.platform     = :ios, "9.1"
 
- s.vendored_framework = "dotpay_mobile_sdk_ios_1.4.23/lib/DotPaySDK.framework"
+ s.vendored_framework = "dotpay_mobile_sdk_ios_2.0.0-beta1/lib/DotPaySDK.framework", "dotpay_mobile_sdk_ios_2.0.0-beta1/lib/Masterpass.framework"
 
  s.requires_arc = true
   
