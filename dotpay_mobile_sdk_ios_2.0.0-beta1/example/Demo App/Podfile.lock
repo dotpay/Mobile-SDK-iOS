@@ -1,16 +1,20 @@
 PODS:
-  - DotPaySDK (1.0.3)
+  - DotPaySDK (2.0.0-beta1):
+    - VisaCheckoutSDK (~> 6.6.1)
+  - VisaCheckoutSDK (6.6.2)
 
 DEPENDENCIES:
-  - DotPaySDK
+  - DotPaySDK (= 2.0.0-beta1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - DotPaySDK
+    - VisaCheckoutSDK
 
 SPEC CHECKSUMS:
-  DotPaySDK: 9acb1b6ce8815a6032b00efdb21e8ee3ec9e91b5
+  DotPaySDK: 3ec9f5b5ae4a0ff09bfa333f927e8798294ee7ef
+  VisaCheckoutSDK: e850358796f533faf09773342c3e4e42248cc447
 
-PODFILE CHECKSUM: 8b202af2bfa72d74efb2235afda2bf1a5e18149c
+PODFILE CHECKSUM: ea6db0ceb4b4887b5a93106d14cf29a719730af4
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.9.3

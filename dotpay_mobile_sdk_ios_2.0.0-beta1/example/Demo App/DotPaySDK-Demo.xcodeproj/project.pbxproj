@@ -172,7 +172,6 @@
 				F935698D1B74F67E00855FE7 /* Resources */,
 				F93569BE1B74F73E00855FE7 /* Embed Frameworks */,
 				6929F7CEA3B53E25D363D326 /* [CP] Embed Pods Frameworks */,
-				4409C1FE2EAF694AFF725921 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,44 +282,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4409C1FE2EAF694AFF725921 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DotPaySDK-Demo/Pods-DotPaySDK-Demo-resources.sh",
-				"${PODS_ROOT}/DotPaySDK/dotpay_mobile_sdk_ios_1.0.3/lib/DotPaySDK.framework",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DotPaySDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DotPaySDK-Demo/Pods-DotPaySDK-Demo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6929F7CEA3B53E25D363D326 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DotPaySDK-Demo/Pods-DotPaySDK-Demo-frameworks.sh",
-				"${PODS_ROOT}/DotPaySDK/dotpay_mobile_sdk_ios_1.0.3/lib/DotPaySDK.framework",
+				"${PODS_ROOT}/DotPaySDK/dotpay_mobile_sdk_ios_2.0.0-beta1/lib/DotPaySDK.framework",
+				"${PODS_ROOT}/DotPaySDK/dotpay_mobile_sdk_ios_2.0.0-beta1/lib/Masterpass.framework",
+				"${PODS_ROOT}/VisaCheckoutSDK/VisaCheckout-iOS-SDK-6.6.2/VisaCheckoutSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DotPaySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masterpass.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VisaCheckoutSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

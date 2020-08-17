@@ -2,5 +2,5 @@
 # platform :ios, '9.0'
 
 target 'DotPaySDK-Demo' do
-  pod 'DotPaySDK'
+  pod 'DotPaySDK', '2.0.0-beta1'
 end
