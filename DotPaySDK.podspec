@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "DotPaySDK"
-s.version      = "2.0.180"
+s.version      = "2.0.193"
 s.summary      = "DotPay SDK"
 
 s.description = File.read('README.md')
@@ -37,15 +37,15 @@ LICENSE
 }
 
  s.author       = { "DotPay" => "tech@dotpay.pl" }
- s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/2.0.180/dotpay_mobile_sdk_ios_2.0.180.zip" }
+ s.source       = { :http => "https://github.com/dotpay/Mobile-SDK-iOS/releases/download/2.0.193/dotpay_mobile_sdk_ios_2.0.193.zip" }
 
  s.platform     = :ios, "9.1"
 
- s.vendored_framework = "dotpay_mobile_sdk_ios_2.0.180/lib/DotPaySDK.framework", "dotpay_mobile_sdk_ios_2.0.180/lib/MasterpassChampionSDK.framework"
+ s.vendored_framework = "dotpay_mobile_sdk_ios_2.0.193/lib/DotPaySDK.framework", "dotpay_mobile_sdk_ios_2.0.193/lib/MasterpassChampionSDK.framework"
 
  s.requires_arc = true
   
- s.dependency 'VisaCheckoutSDK', '~> 6.6.1'
+ s.dependency 'VisaCheckoutSDK', '~> 6.6.2'
 
  s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'

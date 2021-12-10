@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		43BB89F14728F0688E07A77CABB88EBC /* VisaCheckoutSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 673D5814655965C2747240B46A988CD3 /* Build configuration list for PBXAggregateTarget "VisaCheckoutSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = VisaCheckoutSDK;
+		};
+		48A2EB485969B5D798B08AA4485C114D /* DotPaySDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 740C6EDF10F8B5D20B1B45EA38AAB580 /* Build configuration list for PBXAggregateTarget "DotPaySDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				A8CB990742F71C137A1DC60821CCCDB6 /* PBXTargetDependency */,
+			);
+			name = DotPaySDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		F2F807A06E2BD03CB581A565DE362EE9 /* Pods-DotPaySDK-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1937D18F363D0C1206349279D8B343 /* Pods-DotPaySDK-Demo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE4A7114725B12100D088F76E2E138C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43BB89F14728F0688E07A77CABB88EBC;
+			remoteInfo = VisaCheckoutSDK;
+		};
+		646D2268235A889A02D7C77DDC263781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A2EB485969B5D798B08AA4485C114D;
+			remoteInfo = DotPaySDK;
+		};
+		D5E725BD54359B693A7EAE0A8ACAE42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43BB89F14728F0688E07A77CABB88EBC;
+			remoteInfo = VisaCheckoutSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2320AD6E8E8338436124A21FA101685B /* Pods-DotPaySDK-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DotPaySDK-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		2669A57281A0C4E50269BAA98C1BCD9F /* Pods-DotPaySDK-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DotPaySDK-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		37C6C8BAE4BC022064B17A8BD69AAFD7 /* DotPaySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DotPaySDK.release.xcconfig; sourceTree = "<group>"; };
+		701DAF62DFAC240C4B68BE99EAA564EE /* VisaCheckoutSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisaCheckoutSDK.release.xcconfig; sourceTree = "<group>"; };
+		7793996DBED650BCA7C114576291C68E /* DotPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DotPaySDK.framework; path = "dotpay_mobile_sdk_ios_2.0.0-beta1/lib/DotPaySDK.framework"; sourceTree = "<group>"; };
+		798057DF0EFBD2A807C21FCFC8CB0CB3 /* VisaCheckoutSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisaCheckoutSDK.debug.xcconfig; sourceTree = "<group>"; };
+		7E1937D18F363D0C1206349279D8B343 /* Pods-DotPaySDK-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DotPaySDK-Demo-dummy.m"; sourceTree = "<group>"; };
+		844874236B54FAE79228B4AC54B62466 /* Masterpass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masterpass.framework; path = "dotpay_mobile_sdk_ios_2.0.0-beta1/lib/Masterpass.framework"; sourceTree = "<group>"; };
+		8B06CB3E40633AFBEA81449040B17D90 /* Pods-DotPaySDK-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DotPaySDK-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACD8B1795F0726B79DAF0F44C4ED08E1 /* Pods-DotPaySDK-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DotPaySDK-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		C060EB50BCE83F3E24374D3A95B89593 /* VisaCheckoutSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisaCheckoutSDK.framework; path = "VisaCheckout-iOS-SDK-6.6.2/VisaCheckoutSDK.framework"; sourceTree = "<group>"; };
+		D60C8D51B0E5C9A7AB851A15D21DDD01 /* libPods-DotPaySDK-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DotPaySDK-Demo.a"; path = "libPods-DotPaySDK-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA281F3BA037C9E9472ECEBF8FFC3DB5 /* Pods-DotPaySDK-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DotPaySDK-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		EA6DE7B9DD73511E0DC89FB451CE9541 /* DotPaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DotPaySDK.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E01B1E666BB62420E6A98FC0A24B9C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00436830E9533E275BCD91F0270FD85E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				798057DF0EFBD2A807C21FCFC8CB0CB3 /* VisaCheckoutSDK.debug.xcconfig */,
+				701DAF62DFAC240C4B68BE99EAA564EE /* VisaCheckoutSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VisaCheckoutSDK";
+			sourceTree = "<group>";
+		};
+		166E48BFD5CFA98529E80A00EA4573FE /* DotPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				D66E25C58DD72F992A76D87424664EEF /* Frameworks */,
+				E40E554A81015E7FBDD6DAEE8FDD13A0 /* Support Files */,
+			);
+			name = DotPaySDK;
+			path = DotPaySDK;
+			sourceTree = "<group>";
+		};
+		2ED346E3361675E57198C2A768A7597A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60C8D51B0E5C9A7AB851A15D21DDD01 /* libPods-DotPaySDK-Demo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68992D7D833A0E0DD709594F2D8535B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F53D21A334C0FA3FD348E1EC8D1ED48A /* Pods-DotPaySDK-Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		88F5789A348F3A15941F190E1B2BD057 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				166E48BFD5CFA98529E80A00EA4573FE /* DotPaySDK */,
+				E9A1DFC5EF7E36A454F597263BE8D587 /* VisaCheckoutSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		921DE2C861149AC80BA0AD86C6E9CC7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C060EB50BCE83F3E24374D3A95B89593 /* VisaCheckoutSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				88F5789A348F3A15941F190E1B2BD057 /* Pods */,
+				2ED346E3361675E57198C2A768A7597A /* Products */,
+				68992D7D833A0E0DD709594F2D8535B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D66E25C58DD72F992A76D87424664EEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7793996DBED650BCA7C114576291C68E /* DotPaySDK.framework */,
+				844874236B54FAE79228B4AC54B62466 /* Masterpass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E40E554A81015E7FBDD6DAEE8FDD13A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA6DE7B9DD73511E0DC89FB451CE9541 /* DotPaySDK.debug.xcconfig */,
+				37C6C8BAE4BC022064B17A8BD69AAFD7 /* DotPaySDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DotPaySDK";
+			sourceTree = "<group>";
+		};
+		E9A1DFC5EF7E36A454F597263BE8D587 /* VisaCheckoutSDK */ = {
+			isa = PBXGroup;
+			children = (
+				921DE2C861149AC80BA0AD86C6E9CC7C /* Frameworks */,
+				00436830E9533E275BCD91F0270FD85E /* Support Files */,
+			);
+			name = VisaCheckoutSDK;
+			path = VisaCheckoutSDK;
+			sourceTree = "<group>";
+		};
+		F53D21A334C0FA3FD348E1EC8D1ED48A /* Pods-DotPaySDK-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8B06CB3E40633AFBEA81449040B17D90 /* Pods-DotPaySDK-Demo-acknowledgements.markdown */,
+				ACD8B1795F0726B79DAF0F44C4ED08E1 /* Pods-DotPaySDK-Demo-acknowledgements.plist */,
+				7E1937D18F363D0C1206349279D8B343 /* Pods-DotPaySDK-Demo-dummy.m */,
+				2320AD6E8E8338436124A21FA101685B /* Pods-DotPaySDK-Demo-frameworks.sh */,
+				2669A57281A0C4E50269BAA98C1BCD9F /* Pods-DotPaySDK-Demo.debug.xcconfig */,
+				DA281F3BA037C9E9472ECEBF8FFC3DB5 /* Pods-DotPaySDK-Demo.release.xcconfig */,
+			);
+			name = "Pods-DotPaySDK-Demo";
+			path = "Target Support Files/Pods-DotPaySDK-Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82E31520B46A25D8FC1F46732AB52313 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EB4936CE728515A2757FEA856807F86C /* Pods-DotPaySDK-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FE7EDA650DD00F629A24F4388784BC2 /* Build configuration list for PBXNativeTarget "Pods-DotPaySDK-Demo" */;
+			buildPhases = (
+				82E31520B46A25D8FC1F46732AB52313 /* Headers */,
+				0D6EE481047453D779DEBB28C1EA72A1 /* Sources */,
+				E01B1E666BB62420E6A98FC0A24B9C34 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF18EFB76D98CFE0FB98825734A64D6 /* PBXTargetDependency */,
+				951FECF391414F88D162704172F9EEB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-DotPaySDK-Demo";
+			productName = "Pods-DotPaySDK-Demo";
+			productReference = D60C8D51B0E5C9A7AB851A15D21DDD01 /* libPods-DotPaySDK-Demo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2ED346E3361675E57198C2A768A7597A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A2EB485969B5D798B08AA4485C114D /* DotPaySDK */,
+				EB4936CE728515A2757FEA856807F86C /* Pods-DotPaySDK-Demo */,
+				43BB89F14728F0688E07A77CABB88EBC /* VisaCheckoutSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D6EE481047453D779DEBB28C1EA72A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F807A06E2BD03CB581A565DE362EE9 /* Pods-DotPaySDK-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF18EFB76D98CFE0FB98825734A64D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DotPaySDK;
+			target = 48A2EB485969B5D798B08AA4485C114D /* DotPaySDK */;
+			targetProxy = 646D2268235A889A02D7C77DDC263781 /* PBXContainerItemProxy */;
+		};
+		951FECF391414F88D162704172F9EEB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VisaCheckoutSDK;
+			target = 43BB89F14728F0688E07A77CABB88EBC /* VisaCheckoutSDK */;
+			targetProxy = D5E725BD54359B693A7EAE0A8ACAE42E /* PBXContainerItemProxy */;
+		};
+		A8CB990742F71C137A1DC60821CCCDB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VisaCheckoutSDK;
+			target = 43BB89F14728F0688E07A77CABB88EBC /* VisaCheckoutSDK */;
+			targetProxy = 1AE4A7114725B12100D088F76E2E138C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		055E252C70C1D909A722073C400A870A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C6C8BAE4BC022064B17A8BD69AAFD7 /* DotPaySDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1944BFA7EE3351C3C046E02576E8B794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA281F3BA037C9E9472ECEBF8FFC3DB5 /* Pods-DotPaySDK-Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8E19C7801C89A7E6D4C823FAECB7BE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798057DF0EFBD2A807C21FCFC8CB0CB3 /* VisaCheckoutSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EBBCC5E1298C2419CE66FC2696F2CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701DAF62DFAC240C4B68BE99EAA564EE /* VisaCheckoutSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E03D1DE21FDB5A4EB647ABD2825F2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2669A57281A0C4E50269BAA98C1BCD9F /* Pods-DotPaySDK-Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC047FFB3E02FD9FB4F2EFFD87294650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6DE7B9DD73511E0DC89FB451CE9541 /* DotPaySDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FE7EDA650DD00F629A24F4388784BC2 /* Build configuration list for PBXNativeTarget "Pods-DotPaySDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E03D1DE21FDB5A4EB647ABD2825F2F4 /* Debug */,
+				1944BFA7EE3351C3C046E02576E8B794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		673D5814655965C2747240B46A988CD3 /* Build configuration list for PBXAggregateTarget "VisaCheckoutSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E19C7801C89A7E6D4C823FAECB7BE2B /* Debug */,
+				8EBBCC5E1298C2419CE66FC2696F2CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740C6EDF10F8B5D20B1B45EA38AAB580 /* Build configuration list for PBXAggregateTarget "DotPaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC047FFB3E02FD9FB4F2EFFD87294650 /* Debug */,
+				055E252C70C1D909A722073C400A870A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
