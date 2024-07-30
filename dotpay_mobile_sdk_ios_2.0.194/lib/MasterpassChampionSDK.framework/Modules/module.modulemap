@@ -1,0 +1,4 @@
+framework module MasterpassChampionSDK {
+    header "MasterpassChampionSDK-Swift.h"
+    requires objc
+}

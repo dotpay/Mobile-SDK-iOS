@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "DotPaySDK"
-s.version      = "2.0.193"
+s.version      = "2.0.194"
 s.summary      = "DotPay SDK"
 
 s.description = File.read('README.md')
@@ -41,7 +41,7 @@ LICENSE
 
  s.platform     = :ios, "9.1"
 
- s.vendored_framework = "dotpay_mobile_sdk_ios_2.0.193/lib/DotPaySDK.framework", "dotpay_mobile_sdk_ios_2.0.193/lib/MasterpassChampionSDK.framework"
+ s.vendored_framework = "dotpay_mobile_sdk_ios_2.0.194/lib/DotPaySDK.xcframework", "dotpay_mobile_sdk_ios_2.0.193/lib/MasterpassChampionSDK.framework"
 
  s.requires_arc = true
   
